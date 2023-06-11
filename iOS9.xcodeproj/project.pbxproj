@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CBA3E5F2A346E7D0080FBB5 /* MainPageAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA3E5E2A346E7D0080FBB5 /* MainPageAppsView.swift */; };
 		0CC3B7FA2A3458EB00CA570D /* iOS9App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3B7F92A3458EB00CA570D /* iOS9App.swift */; };
-		0CC3B7FC2A3458EB00CA570D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3B7FB2A3458EB00CA570D /* ContentView.swift */; };
+		0CC3B7FC2A3458EB00CA570D /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3B7FB2A3458EB00CA570D /* MainPageView.swift */; };
 		0CC3B7FE2A3458EC00CA570D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC3B7FD2A3458EC00CA570D /* Assets.xcassets */; };
 		0CC3B8012A3458EC00CA570D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC3B8002A3458EC00CA570D /* Preview Assets.xcassets */; };
+		0CC3B8092A345C2500CA570D /* TopInfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3B8082A345C2500CA570D /* TopInfoBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CBA3E5E2A346E7D0080FBB5 /* MainPageAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageAppsView.swift; sourceTree = "<group>"; };
 		0CC3B7F62A3458EB00CA570D /* iOS9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC3B7F92A3458EB00CA570D /* iOS9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS9App.swift; sourceTree = "<group>"; };
-		0CC3B7FB2A3458EB00CA570D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CC3B7FB2A3458EB00CA570D /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 		0CC3B7FD2A3458EC00CA570D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC3B8002A3458EC00CA570D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CC3B8082A345C2500CA570D /* TopInfoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopInfoBar.swift; sourceTree = "<group>"; };
+		0CC3B80A2A345F6900CA570D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,9 @@
 		0CC3B7F82A3458EB00CA570D /* iOS9 */ = {
 			isa = PBXGroup;
 			children = (
+				0CC3B80A2A345F6900CA570D /* Info.plist */,
+				0CC3B8072A345BEC00CA570D /* MainPage */,
 				0CC3B7F92A3458EB00CA570D /* iOS9App.swift */,
-				0CC3B7FB2A3458EB00CA570D /* ContentView.swift */,
 				0CC3B7FD2A3458EC00CA570D /* Assets.xcassets */,
 				0CC3B7FF2A3458EC00CA570D /* Preview Content */,
 			);
@@ -65,6 +71,16 @@
 				0CC3B8002A3458EC00CA570D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CC3B8072A345BEC00CA570D /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				0CC3B7FB2A3458EB00CA570D /* MainPageView.swift */,
+				0CC3B8082A345C2500CA570D /* TopInfoBar.swift */,
+				0CBA3E5E2A346E7D0080FBB5 /* MainPageAppsView.swift */,
+			);
+			path = MainPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC3B7FC2A3458EB00CA570D /* ContentView.swift in Sources */,
+				0CC3B7FC2A3458EB00CA570D /* MainPageView.swift in Sources */,
 				0CC3B7FA2A3458EB00CA570D /* iOS9App.swift in Sources */,
+				0CBA3E5F2A346E7D0080FBB5 /* MainPageAppsView.swift in Sources */,
+				0CC3B8092A345C2500CA570D /* TopInfoBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = H9JV7AJAPW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS9/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = H9JV7AJAPW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS9/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
