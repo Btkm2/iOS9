@@ -22,7 +22,7 @@ struct MainPageView: View {
             VStack {
                 TopInfoBar()
             }
-            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height*0.85)
+            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height*0.8)
             .border(Color.white)
             .background {
                 Image("iOS9")

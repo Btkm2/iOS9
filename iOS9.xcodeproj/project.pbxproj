@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4F17982A386E3C00CC1B34 /* CalendarAppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F17972A386E3C00CC1B34 /* CalendarAppIconView.swift */; };
+		0C4F179A2A38773200CC1B34 /* PhotosAppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F17992A38773200CC1B34 /* PhotosAppIconView.swift */; };
+		0C4F179C2A387DE700CC1B34 /* CameraAppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F179B2A387DE700CC1B34 /* CameraAppIconView.swift */; };
 		0CBA3E5F2A346E7D0080FBB5 /* MainPageAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA3E5E2A346E7D0080FBB5 /* MainPageAppsView.swift */; };
 		0CC3B7FA2A3458EB00CA570D /* iOS9App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3B7F92A3458EB00CA570D /* iOS9App.swift */; };
 		0CC3B7FC2A3458EB00CA570D /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3B7FB2A3458EB00CA570D /* MainPageView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4F17972A386E3C00CC1B34 /* CalendarAppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarAppIconView.swift; sourceTree = "<group>"; };
+		0C4F17992A38773200CC1B34 /* PhotosAppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAppIconView.swift; sourceTree = "<group>"; };
+		0C4F179B2A387DE700CC1B34 /* CameraAppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppIconView.swift; sourceTree = "<group>"; };
 		0CBA3E5E2A346E7D0080FBB5 /* MainPageAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageAppsView.swift; sourceTree = "<group>"; };
 		0CC3B7F62A3458EB00CA570D /* iOS9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC3B7F92A3458EB00CA570D /* iOS9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS9App.swift; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4F17962A386E1D00CC1B34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CC3B8072A345BEC00CA570D /* MainPage */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0CC3B7ED2A3458EA00CA570D = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +70,8 @@
 		0CC3B7F82A3458EB00CA570D /* iOS9 */ = {
 			isa = PBXGroup;
 			children = (
+				0C4F17962A386E1D00CC1B34 /* Views */,
 				0CC3B80A2A345F6900CA570D /* Info.plist */,
-				0CC3B8072A345BEC00CA570D /* MainPage */,
 				0CC3B7F92A3458EB00CA570D /* iOS9App.swift */,
 				0CC3B7FD2A3458EC00CA570D /* Assets.xcassets */,
 				0CC3B7FF2A3458EC00CA570D /* Preview Content */,
@@ -79,6 +93,9 @@
 				0CC3B7FB2A3458EB00CA570D /* MainPageView.swift */,
 				0CC3B8082A345C2500CA570D /* TopInfoBar.swift */,
 				0CBA3E5E2A346E7D0080FBB5 /* MainPageAppsView.swift */,
+				0C4F17972A386E3C00CC1B34 /* CalendarAppIconView.swift */,
+				0C4F17992A38773200CC1B34 /* PhotosAppIconView.swift */,
+				0C4F179B2A387DE700CC1B34 /* CameraAppIconView.swift */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -155,7 +172,10 @@
 			files = (
 				0CC3B7FC2A3458EB00CA570D /* MainPageView.swift in Sources */,
 				0CC3B7FA2A3458EB00CA570D /* iOS9App.swift in Sources */,
+				0C4F179A2A38773200CC1B34 /* PhotosAppIconView.swift in Sources */,
 				0CBA3E5F2A346E7D0080FBB5 /* MainPageAppsView.swift in Sources */,
+				0C4F17982A386E3C00CC1B34 /* CalendarAppIconView.swift in Sources */,
+				0C4F179C2A387DE700CC1B34 /* CameraAppIconView.swift in Sources */,
 				0CC3B8092A345C2500CA570D /* TopInfoBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

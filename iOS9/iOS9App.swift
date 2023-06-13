@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS9App: App {
     var body: some Scene {
         WindowGroup {
-            TopInfoBar()
+            CalendarAppIconView()
         }
     }
 }
